@@ -1,0 +1,62 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Cfn Template by CloudAdvisor
+Parameters: {}
+Resources:
+  Subnet1:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      AssignIpv6AddressOnCreation: false
+      AvailabilityZone: "placeholder"
+      AvailabilityZoneId: "placeholder"
+      CidrBlock: "placeholder"
+      EnableDns64: false
+      Ipv6CidrBlock: "placeholder"
+      Ipv6Native: false
+      MapPublicIpOnLaunch: false
+      OutpostArn: "placeholder"
+      PrivateDnsNameOptionsOnLaunch:
+        EnableResourceNameDnsAAAARecord: false
+        EnableResourceNameDnsARecord: false
+        HostnameType: "placeholder"
+      Tags: []
+      VpcId: "placeholder"
+  Subnet2:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      AssignIpv6AddressOnCreation: false
+      AvailabilityZone: "placeholder"
+      AvailabilityZoneId: "placeholder"
+      CidrBlock: "placeholder"
+      EnableDns64: false
+      Ipv6CidrBlock: "placeholder"
+      Ipv6Native: false
+      MapPublicIpOnLaunch: false
+      OutpostArn: "placeholder"
+      PrivateDnsNameOptionsOnLaunch:
+        EnableResourceNameDnsAAAARecord: false
+        EnableResourceNameDnsARecord: false
+        HostnameType: "placeholder"
+      Tags: []
+      VpcId: "placeholder"
+  Subnet3:
+    Type: 'AWS::EC2::Subnet'
+    Properties:
+      AssignIpv6AddressOnCreation: false
+      AvailabilityZone: "placeholder"
+      AvailabilityZoneId: "placeholder"
+      CidrBlock: "placeholder"
+      EnableDns64: false
+      Ipv6CidrBlock: "placeholder"
+      Ipv6Native: false
+      MapPublicIpOnLaunch: false
+      OutpostArn: "placeholder"
+      PrivateDnsNameOptionsOnLaunch:
+        EnableResourceNameDnsAAAARecord: false
+        EnableResourceNameDnsARecord: false
+        HostnameType: "placeholder"
+      Tags: []
+      VpcId: "placeholder"
+Outputs: {}
+Conditions: {}
+Mappings: {}
+Metadata: {}
